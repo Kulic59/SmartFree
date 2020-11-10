@@ -1,0 +1,97 @@
+object fmSmartFree: TfmSmartFree
+  Left = 401
+  Height = 394
+  Top = 192
+  Width = 560
+  Caption = 'fmSmartFree'
+  ClientHeight = 394
+  ClientWidth = 560
+  LCLVersion = '2.0.8.0'
+  object memPrint: TMemo
+    Left = 33
+    Height = 256
+    Top = 80
+    Width = 335
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 0
+  end
+  object bnCreate: TButton
+    Left = 445
+    Height = 25
+    Top = 35
+    Width = 75
+    Caption = 'Create'
+    OnClick = bnCreateClick
+    TabOrder = 1
+  end
+  object bnPrint: TButton
+    Left = 448
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = 'Print'
+    OnClick = bnPrintClick
+    TabOrder = 2
+  end
+  object edIntObj: TEdit
+    Left = 89
+    Height = 21
+    Top = 10
+    Width = 80
+    TabOrder = 3
+    Text = '15'
+  end
+  object edStrObj: TEdit
+    Left = 92
+    Height = 21
+    Top = 43
+    Width = 80
+    TabOrder = 4
+    Text = 'Test'
+  end
+  object Label1: TLabel
+    Left = 48
+    Height = 13
+    Top = 13
+    Width = 14
+    Caption = 'Int'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 49
+    Height = 13
+    Top = 49
+    Width = 14
+    Caption = 'Str'
+    ParentColor = False
+  end
+  object bnFreeIntObj: TButton
+    Left = 451
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'FreeIntObj'
+    OnClick = bnFreeIntObjClick
+    TabOrder = 5
+  end
+  object bnPrintObjX: TButton
+    Left = 451
+    Height = 25
+    Top = 104
+    Width = 75
+    Caption = 'PrintObjX'
+    OnClick = bnPrintObjXClick
+    TabOrder = 6
+  end
+  object bnFreeStrObj: TButton
+    Left = 456
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = 'FreeStrObj'
+    OnClick = bnFreeStrObjClick
+    TabOrder = 7
+  end
+end
